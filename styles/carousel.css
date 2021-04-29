@@ -1,0 +1,8 @@
+.carousel,
+.d-block {
+    max-height: 200px;
+}
+
+.carousel {
+    margin-bottom: 2rem;
+}

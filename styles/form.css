@@ -1,0 +1,29 @@
+.col-5>form {
+    margin-top: 3rem;
+}
+
+.col-5>form div {
+    margin-bottom: 0.5rem;
+}
+
+.x-form-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.x-email {
+    background-image: url(/images/envelope.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position: calc(100% - 5px) center;
+    background-position-x: right 5px;
+}
+
+.x-phone {
+    background-image: url(/images/telephone.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position: calc(100% - 5px) center;
+    background-position-x: right 5px;
+}

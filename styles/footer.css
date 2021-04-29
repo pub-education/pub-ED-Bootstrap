@@ -1,0 +1,51 @@
+.page_container {
+    /*important to footer placement*/
+    position: relative;
+    top: 0px;
+    min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+
+}
+
+.page_wrap {
+    margin-bottom: 60px;
+    border: 4px solid red;
+    min-height: 100vh;
+}
+
+footer {
+    display: table;
+    text-align: center;
+    /*position: absolute;*/
+    /*important to footer placement*/
+    bottom: 0px;
+    /*important to footer placement*/
+    background-color: transparent;
+    height: 60px;
+    /*important to footer placement*/
+    width: 100vw;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 1rem;
+}
+
+.footer-to-top {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease-in;
+}
+
+.footer-to-top:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: yellow;
+    transition: 0.5s ease-in;
+}
+
+.footer-to-top:hover::before {
+    content: "- Go to top-of-page -\ ";
+    display: block;
+}
